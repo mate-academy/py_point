@@ -28,4 +28,4 @@ class Point:
 
     def __hash__(self):
         """Modify __hash__ method"""
-        return hash(self.x_coord)
+        return hash((self.x_coord, self.y_coord))
