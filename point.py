@@ -6,9 +6,9 @@ Create class to represent point in 2D space. Don't use dataclasses.
 
 class Point:
     """Class to represent point in 2D space"""
-    def __init__(self, x_axis, y_axic):
+    def __init__(self, x_axis, y_axis):
         self.x_axis = x_axis
-        self.y_axis = y_axic
+        self.y_axis = y_axis
 
     def __repr__(self):
         return "Point({}, {})".format(self.x_axis, self.y_axis)
