@@ -16,7 +16,7 @@ class Point:
         return self.frst_num == obj.frst_num and self.sec_num == obj.sec_num
 
     def __hash__(self) -> int:
-        return hash(self.frst_num) + hash(self.sec_num)
+        return hash((self.frst_num, self.sec_num))
 
     def __str__(self) -> str:
         return f"({self.frst_num}, {self.sec_num})"
