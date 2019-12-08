@@ -33,7 +33,7 @@ class Point:
         """
         :return: return hash for Point object
         """
-        return hash(self.x_coord ** self.y_coord)
+        return hash((self.x_coord, self.y_coord))
 
     def __eq__(self, other_point):
         """
