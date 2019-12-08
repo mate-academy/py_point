@@ -6,6 +6,7 @@ def test_repr():
     assert repr(p) == "Point(2, 3)"
 
 
+
 def test_str():
     p = point.Point(2, 3)
     assert str(p) == "(2, 3)"
